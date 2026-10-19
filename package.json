@@ -1,0 +1,27 @@
+{
+  "name": "spotify-tracks-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive React dashboard for exploring 114k Spotify tracks across 114 genres.",
+  "author": "Neria Fay Arinda",
+  "license": "MIT",
+  "scripts": {
+    "data": "node scripts/build-data.mjs data/dataset.csv public/data",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "papaparse": "^5.4.1",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.2"
+  }
+}
